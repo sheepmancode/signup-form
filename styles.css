@@ -1,0 +1,151 @@
+/* josh comeau css reset */
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* ------------------------------- */
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.side-banner {
+  width: 30%;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #7986cb;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: flex-start;
+}
+
+.top-paragraph {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.f-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+}
+
+.u-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+}
+
+.pass {
+  display: flex;
+  flex-direction: column;
+}
+
+.conf-pass {
+  display: flex;
+  flex-direction: column;
+}
+
+.password {
+  display: flex;
+}
+
+label {
+  font-size: 0.7rem;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+input {
+  margin-right: 3%;
+  width: 70%;
+}
