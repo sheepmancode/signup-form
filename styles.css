@@ -64,7 +64,6 @@ h6 {
 
 :root {
   font-size: 1vw;
-  color: white;
 }
 
 body {
@@ -73,7 +72,7 @@ body {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(238, 235, 231);
 }
 
 .side-banner {
@@ -97,10 +96,10 @@ body {
 }
 
 .mid-section {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(255, 255, 255);
   width: 70vw;
   padding: 5%;
-  box-shadow: 0px 0px 25px 2px rgb(90, 90, 90);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .f-name {
@@ -160,7 +159,6 @@ body {
   width: 100%;
   color: #7986cb;
   text-align: center;
-  background-color: #00000093;
 }
 
 label {
@@ -173,8 +171,7 @@ label {
 input {
   margin-right: 15%;
   height: 4.5vh;
-  background-color: rgb(80, 80, 80);
-  color: white;
+  background-color: rgba(238, 235, 231);
   border-style: hidden;
   border-radius: 5px;
 }
@@ -205,7 +202,7 @@ button:focus {
 }
 
 a {
-  color: #b4c0ff;
+  color: #3f497c;
   text-decoration: none;
 }
 
